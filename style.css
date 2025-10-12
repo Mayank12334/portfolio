@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    color: white;
+
+}
+
+header h1 {
+font-size: 3rem;
+}
+
+header p {
+font-size: 1.2rem;
+}
+
+/* About Section */
+#about img {
+width: 250px;
+height: 250px;
+}
+
+/* Skills Section */
+#skills i {
+color: #ff4b2b;
+margin-bottom: 15px;
+}
+
+/* Projects Section */
+#projects .card {
+margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+#contact form input,
+#contact form textarea {
+border: none;
+border-radius: 0;
+}
+
+/* Footer */
+footer {
+background-color: #111;
+}
